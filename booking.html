@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ <title>events</title>
+
+</head>
+<body>
+<header>
+    <nav>
+        
+            <h1>EventSphere</h1>
+    
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        
+    </ul>
+    </nav>
+    <div class="searchBar">
+    <form action="" method="get"> 
+        <input type="text" id="search" placeholder="search events" > 
+        
+    </form>
+    </div>
+</header>
+<section id="categories">
+    Click the any category below ,to see the available events</br>
+    <ul>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Art</a></li>
+        <li><a href="#">Dance</a></li>
+        <li><a href="#">Comedy</a></li>
+        <li><a href="#">Fashion</a></li>
+        <li><a href="#">Film</a></li>
+    </ul>
+</section>
+<!-- Booking Form Modal -->
+
+<section id="bookingModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Book Your Ticket</h2>
+        <form id="bookingForm">
+            <input type="hidden" id="eventName">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" min="1" required>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</section>
+</body>
+<footer>
+    <div>
+        <h3>Contact Us</h3>
+        <p>123 Café Street, City</p>
+        <p>+250785933044</p>
+        <p>Email:cafedelight@gmail.com</p>
+    </div>
+    <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+</footer>  
+<script src="script.js"></script>gitg
+</html>
